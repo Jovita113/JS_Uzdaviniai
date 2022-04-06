@@ -1,27 +1,29 @@
 "use strict";
 
 // pirmo uzdavinio sprendimas
-//
-// var n = 0;
-// var answer = n;
-//
-// if (answer > 0) {
-//    console.log("Skaičius geras");
-// } else {
-//    console.log("Skaičius blogas");
-// }
+/*
+ var n = -1;
+ var answer = n;
+
+ if (answer > -1) {
+   console.log("Skaičius geras");
+} else {
+    console.log("Skaičius blogas");
+}*/
 
 
 // antro uzdavinio sprendimas
-// 
-// var n = 2;
-// var answer = n;
-//
-// if (answer >= 2) {
-//    console.log("Palaukite");
-// } else {
-//    console.log("Eikite");
-// }
+/* 
+var n = 3;
+var answer = n;
+
+if (answer == 2) {
+    console.log("Palaukite");
+} else if (answer == 3) {
+    console.log("Sustokite");
+} else 
+    console.log ("Eikite");
+*/
 
 
 // trecio uzdavinio sprendimas 
@@ -38,15 +40,17 @@
 
 
 // ketvirto uždavinio sprendimas
-//
-// let a = 69;
-// let b = 6;
-// let c = a - b;
-// if (c > 1) {
-//    console.log (a - 1);
-// } else {
-//   console.log (b + 1);
-// }
+/*
+let a = 10;
+let b = 5;
+let c = a - b;
+if (a == b) {
+    console.log (a & b);
+} else if (c > 1) {
+   console.log (a - 1);
+} else  {
+   console.log (b + 1);
+}*/
 
 
 //penkto uzdavinio sprendimas 
@@ -74,39 +78,38 @@
 
 //septinto uzdavinio sprendimas
 /*
-let n = 7;
-let z = 12 / n ;
+let n = 2;
 if (n == 2) {
     console.log("28");
-} else if (z > 1) {
-    console.log("31");
-} else {
+} else if (n == 4 || n ==6 || n ==9 || n==11 || n==1) {
     console.log("30");
-}
-*/
+} else {
+    console.log("31");
+}*/
+
 
 
 //astunto uzdavinio sprendimas
 /*
-let k = 1;
-if (k==1 && k==3) {
+let k = 4;
+if (k ==1 || k ==3 || k==5) {
     console.log ("Kambarį tvarkys jaunėlis");
 } else  {
     console.log ("Kambarį tvarkys vyresnėlis")
-}
-*/
+}*/
 
 
 //devinto uzdavinio sprendimas
 /*
-let m = 2005;
-let n = ((m - 1896)/4)+1;
-if (n%1==0) {
-    console.log ("n=" + n);
+let m = 2016;
+
+if (m % 4 ===0) {
+    console.log ("Metai olimpiniai");
+    console.log (((m - 1896)/4)+1)
 } else {
     console.log ("Metai neolimpiniai");
-}*/
-
+}
+*/
 
 //desimto uzdavinio sprendimas
 /*
