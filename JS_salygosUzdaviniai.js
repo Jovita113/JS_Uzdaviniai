@@ -5,7 +5,7 @@
  var n = -1;
  var answer = n;
 
- if (answer > -1) {
+ if (answer > 1) {
    console.log("Skaičius geras");
 } else {
     console.log("Skaičius blogas");
@@ -40,17 +40,17 @@ if (answer == 2) {
 
 
 // ketvirto uždavinio sprendimas
-/*
-let a = 10;
-let b = 5;
+
+let a = 0;
+let b = 0;
 let c = a - b;
-if (a == b) {
-    console.log (a & b);
+if (a == 0 || b ==0) {
+    console.log ("Skaičiai lygūs");
 } else if (c > 1) {
    console.log (a - 1);
 } else  {
    console.log (b + 1);
-}*/
+}
 
 
 //penkto uzdavinio sprendimas 
@@ -81,7 +81,7 @@ if (a == b) {
 let n = 2;
 if (n == 2) {
     console.log("28");
-} else if (n == 4 || n ==6 || n ==9 || n==11 || n==1) {
+} else if (n == 4 || n ==6 || n ==8 || n==10 || n==12) {
     console.log("30");
 } else {
     console.log("31");
